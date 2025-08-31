@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aldrich&family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/assets/weather.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./src/weather.css" />
+    <title>Weather_APP</title>
+  </head>
+  <body>
+    <div class="head">
+      <img src="/assets/logo1.png" />
+      <div class="search">
+        <input type="text" spellcheck="false" placeholder="Search your city" />
+        <img class="img" src="/assets/search.png" />
+      </div>
+      <h2 class="cityName"></h2>
+    </div>
+    <div class="container">
+      <div class="imageInner">
+        <img src="" />
+      </div>
+
+      <div class="info">
+        <div class="infocontainer">
+          <h1 class="temp">
+            <span class="te"></span><span class="status"></span>
+          </h1>
+          <div class="pa">
+            <p class="wind">
+              <span class="wi"></span>
+            </p>
+            <p class="humidity">
+              <span class="hu"></span>
+            </p>
+            <p class="pressure">
+              <span class="pr"></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="loader">
+      <img src="/assets/Summer_no_bg.gif"/>
+    </div>
+    <script src="./src/weather.js"></script>
+  </body>
+</html>
